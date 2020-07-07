@@ -1,0 +1,13 @@
+.App {
+  font-family:Arial, Helvetica, sans-serif;
+  background-image: url(https://i.pinimg.com/originals/ee/4f/78/ee4f78ea5b71aedddeadcaa6e3b3ffe9.jpg);
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-size: 30px;
+  color: dimgrey;
+}
+
