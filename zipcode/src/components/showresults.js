@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import './showresults.css'
 
 class showresults extends Component{
+// thius component formats the table that contains the API information and displays it
 
   showResults = () =>{
     let data = this.props.data;
@@ -45,24 +46,4 @@ class showresults extends Component{
 
 export default showresults;
 
-{/* 
-      let rowHead = [];
-      let rowData = [];
-      
-  
 
-    for(let i = 0; i < data.length; i++){
-        rowHead.push(<th>{data[i].City},{data[i].State}</th>);
-        rowData.push(<td>
-          <p style="color:red">State:</p> <p>{data[i].State}</p>
-        </td>);
-      }
-
-
-
-
-      table.push(<tr>{rowHead}</tr>);
-      table.push(<tr>{rowData}</tr>);
-  
-
-*/}
