@@ -17,7 +17,7 @@ class App extends Component{
     this.setState({currZip: event.target.value});
   }
 
-
+// handle search takes the data from the api and updates the states
 handleSearch = async () =>{
   let zip = this.state.currZip;
   let link = 'http://ctp-zip-api.herokuapp.com/zip/' + zip;
@@ -32,20 +32,6 @@ handleSearch = async () =>{
   }
 }
 
-/* 
-
-//next steps
-
-implement the api data
-
-we can create a component which searches the api data site when we update the input 
-
-
-
-then we after we load the api data compnent we can make a table component. after the state of the api data is updated we can check
-the state (found/not found) to either show "not found" or the table with the data
-
-*/
 
   render(){
     return(
